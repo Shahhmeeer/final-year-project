@@ -66,8 +66,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<String> _categories = [
     'Recommended',
     'On Sale',
-    'Indoor Plants',
-    'Outdoor Plants',
   ];
 
   @override

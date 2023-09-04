@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+// import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:fyp/bottom_navigationbar.dart';
 import 'package:fyp/firebase_options.dart';
 import 'package:fyp/screens/forgot_password_screen.dart';
@@ -12,7 +12,7 @@ import 'package:fyp/screens/onboarding_screen.dart';
 import 'package:fyp/screens/signup_screen.dart';
 
 void main() async {
-  await dotenv.load(fileName: '.env');
+  // await dotenv.load(fileName: '.env');
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
